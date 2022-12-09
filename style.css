@@ -1,0 +1,20 @@
+/* CSS styles for the blobs */
+.blob {
+  /* Set the initial position of the blob */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  /* Add a transition to animate changes to the blob's position and appearance */
+  transition: all 2s ease-in-out;
+
+  /* Set the initial appearance of the blob */
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ff0000;
+  box-shadow: 0 0 20px 10px #ff0000;
+
+  /* Make the blob move away from the cursor when the user hovers over it */
+  cursor: pointer;
+}
